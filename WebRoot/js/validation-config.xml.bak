@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE validation-config SYSTEM "validation-config.dtd">
+<validation-config lang="auto">
+	<form id="form1" show-error="alert" show-type="all">
+		<field name="name" display-name="姓名" onfail="">
+			<depend name="required" />
+			<depend name="minLength" param0="2"/>
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="title" display-name="主题">
+			<depend name="required" />
+		</field>			
+		<field name="email" display-name="email">
+			<depend name="required" />
+			<depend name="email" />			
+		</field>
+	</form>
+</validation-config>

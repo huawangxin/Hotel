@@ -1,0 +1,4 @@
+#Thu Jan 07 11:28:37 CST 2010
+eclipse.preferences.version=1
+validator.Checked=WebRoot/login.jsp,WebRoot/loginMessage3.jsp,WebRoot/js/validation-framework.js,WebRoot/fckeditor,WebRoot/footer.htm,WebRoot/loginMessage2.jsp
+validator.Unchecked=

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginHotelServlet</servlet-name>
+    <servlet-class>web.hotel.login.LoginHotelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HomeMessageServlet</servlet-name>
+    <servlet-class>web.hotel.home.HomeMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StopHomeServlet</servlet-name>
+    <servlet-class>web.hotel.home.StopHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddHomeServlet</servlet-name>
+    <servlet-class>web.hotel.home.AddHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateHomeServlet</servlet-name>
+    <servlet-class>web.hotel.home.UpdateHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteAdminServlet</servlet-name>
+    <servlet-class>web.hotel.admin.DeleteAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <servlet-class>web.hotel.admin.AddAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateAdminServlet</servlet-name>
+    <servlet-class>web.hotel.admin.UpdateAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MakeHomeServlet</servlet-name>
+    <servlet-class>web.hotel.person.MakeHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuitHomeServlet</servlet-name>
+    <servlet-class>web.hotel.person.QuitHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MakeEnterServlet</servlet-name>
+    <servlet-class>web.hotel.person.MakeEnterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EnteringServlet</servlet-name>
+    <servlet-class>web.hotel.person.EnteringServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeHomeServlet</servlet-name>
+    <servlet-class>web.hotel.person.ChangeHomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RecordConsumServlet</servlet-name>
+    <servlet-class>web.hotel.consum.RecordConsumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectConsumServlet</servlet-name>
+    <servlet-class>web.hotel.consum.SelectConsumServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountBillServlet</servlet-name>
+    <servlet-class>web.hotel.bill.AccountBillServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginHotelServlet</servlet-name>
+    <url-pattern>/servlet/loginHotel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HomeMessageServlet</servlet-name>
+    <url-pattern>/servlet/homeMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StopHomeServlet</servlet-name>
+    <url-pattern>/servlet/stopHome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddHomeServlet</servlet-name>
+    <url-pattern>/servlet/addHome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateHomeServlet</servlet-name>
+    <url-pattern>/servlet/updateHome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAdminServlet</servlet-name>
+    <url-pattern>/servlet/deleteAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAdminServlet</servlet-name>
+    <url-pattern>/servlet/addAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAdminServlet</servlet-name>
+    <url-pattern>/servlet/updateAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MakeHomeServlet</servlet-name>
+    <url-pattern>/servlet/makeHome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuitHomeServlet</servlet-name>
+    <url-pattern>/servlet/quitHome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MakeEnterServlet</servlet-name>
+    <url-pattern>/servlet/makeEnter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnteringServlet</servlet-name>
+    <url-pattern>/servlet/entering</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeHomeServlet</servlet-name>
+    <url-pattern>/servlet/changeHome</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecordConsumServlet</servlet-name>
+    <url-pattern>/servlet/recordConsum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectConsumServlet</servlet-name>
+    <url-pattern>/servlet/selectConsum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountBillServlet</servlet-name>
+    <url-pattern>/servlet/accountBill</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE validation-config SYSTEM "validation-config.dtd">
+<validation-config lang="auto">
+	<form id="form1" show-error="alert" show-type="all">
+		<field name="name" display-name="用户名" onfail="">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="password" display-name="密码">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form2" show-error="alert" show-type="all">
+		<field name="id" display-name="客房号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form3" show-error="alert" show-type="all">
+		<field name="id" display-name="客房号 " onfail="">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="state" display-name="状态">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="type" display-name="类型">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="price" display-name="价格">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form4" show-error="alert" show-type="all">
+		<field name="id" display-name="客房号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form5" show-error="alert" show-type="all">
+		<field name="id" display-name="客房号 " onfail="">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="state" display-name="状态">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="type" display-name="类型">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="price" display-name="价格">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form6" show-error="alert" show-type="all">
+		<field name="id" display-name="工号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	
+	<form id="form7" show-error="alert" show-type="all">
+		<field name="id" display-name="工号 " onfail="">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="name" display-name="姓名">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="password" display-name="密码">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="status" display-name="身份">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form8" show-error="alert" show-type="all">
+		<field name="id" display-name="工号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form9" show-error="alert" show-type="all">
+		<field name="id" display-name="工号 " onfail="">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="name" display-name="姓名">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="password" display-name="密码">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="status" display-name="身份">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form10" show-error="alert" show-type="all">
+		<field name="id" display-name="房间号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form11" show-error="alert" show-type="all">
+		<field name="id" display-name="房间号 ">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="id" display-name="姓名" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="id" display-name="身份证号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="id" display-name="房间类型" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>		
+	</form>
+	
+	<form id="form12" show-error="alert" show-type="all">
+		<field name="id" display-name="客房号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="idcard" display-name="证件号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>			
+	</form>
+	
+	<form id="form13" show-error="alert" show-type="all">
+		<field name="id" display-name="房间号 ">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="id" display-name="姓名" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="id" display-name="身份证号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>		
+	</form>
+	
+	<form id="form14" show-error="alert" show-type="all">
+		<field name="id1" display-name="房间号 ">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="id2" display-name="房间号" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>		
+	</form>
+	
+	<form id="form14" show-error="alert" show-type="all">
+		<field name="id" display-name="房间号 ">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="type1" display-name="消费类型" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="type" display-name="服务类型" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>
+		<field name="cash" display-name="消费价格" >
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>		
+	</form>
+	
+	<form id="form15" show-error="alert" show-type="all">
+		<field name="id" display-name="房间号 ">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>	
+	</form>
+	
+	<form id="form16" show-error="alert" show-type="all">
+		<field name="id" display-name="房间号 ">
+			<depend name="required" />
+			<depend name="maxLength" param0="20"/>
+		</field>	
+	</form>
+</validation-config>
